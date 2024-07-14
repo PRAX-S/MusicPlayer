@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/gg" />
+
+    <TextView
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-50dp"
+        android:text="MUSICAL GENRES"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/classical"
+        android:layout_width="175dp"
+        android:layout_height="121dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/gitar"
+        android:textColor="@color/white"
+        android:text="Classical" />
+
+    <Button
+        android:id="@+id/hiphop"
+        android:layout_width="175dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-120dp"
+        android:background="@drawable/hiphop"
+        android:textColor="@color/white"
+        android:text="Hip Hop" />
+
+    <Button
+        android:id="@+id/kpop"
+        android:layout_width="175dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/anime1"
+        android:textColor="@color/white"
+        android:text="ANIME" />
+
+    <Button
+        android:id="@+id/love"
+        android:layout_width="175dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-120dp"
+        android:background="@drawable/love"
+        android:text="Love"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/sleep"
+        android:layout_width="175dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/sleep"
+        android:textColor="@color/white"
+        android:text="Sleep" />
+    <Button
+        android:id="@+id/chill"
+        android:layout_width="175dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-120dp"
+        android:background="@drawable/hm"
+        android:textColor="@color/white"
+        android:text="Chill" />
+
+</LinearLayout>
